@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macaco PC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>PC DA NEANDERTAL</h2>
+
+    <h3 onclick="toggleOptions('perifericos')">Periféricos <img src="/img/me-laxas.gif" width="100" height="60"></h3>
+    <ul id="perifericos" style="display: block;">
+        <li class="fadein" onmouseover="this.style.cursor='pointer'" onclick="toggleLinks('monitor')"><span style="font-size: 1.2em;">Monitor:</span>
+            <ul id="monitor" style="display:none;">
+                <li><a href="https://abrir.link/UtIiE">MONITOR GAMER AOC SPEED</a></li>
+                <li><a href="https://abrir.link/C3NY0">MANCER VALAK Z180H</a></li>
+                <li><a href="https://abrir.link/iOqEB">PICHAU CENTAURI CRS24</a></li>
+            </ul>
+        </li>
+        <li class="fadein" onmouseover="this.style.cursor='pointer'" onclick="toggleLinks('mouse')"><span style="font-size: 1.2em;">Mouse:</span>
+            <ul id="mouse" style="display:none;">
+                <li><a href="https://abre.ai/jaSm">REDRAGON COBRA</a></li>
+                <li><a href="https://abre.ai/jaSo">GRIFFIN REDRAGON</a></li>
+                <li><a href="https://abre.ai/jaSq">Logitech G403 HERO</a></li>
+            </ul>
+        </li>
+        <li class="fadein" onmouseover="this.style.cursor='pointer'" onclick="toggleLinks('teclado')"><span style="font-size: 1.2em;">Teclado:</span>
+            <ul id="teclado" style="display:none;">
+                <li><a href="https://abrir.link/CJKEq">REDRAGON FIZZ</a></li>
+                <li><a href="https://abrir.link/uGZEf">KUMARA PRO</a></li>
+                <li><a href="https://abrir.link/xbzaL">KARURA 2</a></li>
+            </ul>
+        </li>
+        <li class="fadein" onmouseover="this.style.cursor='pointer'" onclick="toggleLinks('headset')"><span style="font-size: 1.2em;">Headset:</span>
+            <ul id="headset" style="display:none;">
+                <li><a href="https://abrir.link/VLASw">STINGER 2 CORE</a></li>
+                <li><a href="https://abrir.link/kJbmv">LIMIA 2</a></li>
+                <li><a href="https://abrir.link/ugqZB">HAVIT HV-H2232D</a></li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3 onclick="toggleOptions('pecas')">Peças PC <img src="/img/macaco-babuíno.gif" width="100" height="60"></h3>
+    <ul id="pecas" style="display: block;">
+        <li class="fadein" onmouseover="this.style.cursor='pointer'" onclick="toggleLinks('gabinete')"><span style="font-size: 1.2em;">Gabinete:</span>
+            <ul id="gabinete" style="display:none;">
+                <li><a href="https://abrir.link/tIUUZ">RISE MODE GLASS 06X Black</a></li>
+                <li><a href="https://abrir.link/oAZsy">GALAXY GLASS M BLACK</a></li>
+                <li><a href="https://abrir.link/zOAfG">GALAXY GLASS SOUND BLACK</a></li>
+            </ul>
+        </li>
+        <li class="fadein" onmouseover="this.style.cursor='pointer'" onclick="toggleLinks('placa_mae')"><span style="font-size: 1.2em;">Placa mãe:</span>
+            <ul id="placa_mae" style="display:none;">
+                <li><a href="https://abrir.link/fNPyX">B550M AORUS ELITE</a></li>
+                <li><a href="https://abrir.link/LYHKm">B450M PRO-VDH MAX</a></li>
+                <li><a href="https://abrir.link/oZIWc">B450M S2H DDR4</a></li>
+            </ul>
+        </li>
+        <li class="fadein" onmouseover="this.style.cursor='pointer'" onclick="toggleLinks('memoria_ram')"><span style="font-size: 1.2em;">Memória RAM:</span>
+            <ul id="memoria_ram" style="display:none;">
+                <li><a href="https://abrir.link/wBEce">XPG GAMMIX D10</a></li>
+                <li><a href="https://abrir.link/SfLfb">FURY BEAST</a></li>
+                <li><a href="https://abrir.link/tbTlR">CORSAIR VENGEANCE LPX</a></li>
+            </ul>
+        </li>
+        <li class="fadein" onmouseover="this.style.cursor='pointer'" onclick="toggleLinks('processador')"><span style="font-size: 1.2em;">Processador:</span>
+            <ul id="processador" style="display:none;">
+                <li><a href="https://abrir.link/acHVM">AMD RYZEN 5600G</a></li>
+            </ul>
+        </li>
+        <li class="fadein" onmouseover="this.style.cursor='pointer'" onclick="toggleLinks('armazenamento_ssd')"><span style="font-size: 1.2em;">Armazenamento SSD:</span>
+            <ul id="armazenamento_ssd" style="display:none;">
+                <li><a href="https://abrir.link/bqPct">XRAY DISK 1TB</a></li>
+            </ul>
+        </li>
+        <li class="fadein" onmouseover="this.style.cursor='pointer'" onclick="toggleLinks('water_cooler')"><span style="font-size: 1.2em;">Water Cooler:</span>
+            <ul id="water_cooler" style="display:none;">
+                <li><a href="https://abrir.link/LOmjJ">WATER COOLER RISEMODE</a></li>
+            </ul>
+        </li>
+        <li class="fadein" onmouseover="this.style.cursor='pointer'" onclick="toggleLinks('fan_cooler')"><span style="font-size: 1.2em;">Fan Cooler:</span>
+            <ul id="fan_cooler" style="display:none;">
+                <li><a href="https://abrir.link/hoIng">FANCOOLER RISEMODE</a></li>
+            </ul>
+        </li>
+        <li class="fadein" onmouseover="this.style.cursor='pointer'" onclick="toggleLinks('fonte')"><span style="font-size: 1.2em;">Fonte:</span>
+            <ul id="fonte" style="display:none;">
+                <li><a href="https://abrir.link/NNoUw">REDRAGON RGPS 500W</a></li>
+                <li><a href="https://abrir.link/FIFlT">PICHAU NIDUS 500W (recomendo)</a></li>
+            </ul>
+        </li>
+        <p class="creditos"><img src="/img/20240102_051646.jpg" width="150" height="150"> by: myers_peludo (vulgo tony ramos)</p>
+    </ul>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
